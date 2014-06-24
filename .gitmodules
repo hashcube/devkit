@@ -9,7 +9,7 @@
 	url = https://github.com/gameclosure/squill.git
 [submodule "lib/gcapi"]
 	path = lib/gcapi
-	url = https://github.com/gameclosure/gcapi.git
+	url = https://github.com/hashcube/gcapi.git
 [submodule "lib/NativeInspector"]
 	path = lib/NativeInspector
 	url = https://github.com/gameclosure/NativeInspector.git
