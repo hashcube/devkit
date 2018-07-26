@@ -158,7 +158,7 @@ function updateCache(name, url, version) {
  */
 function installModuleFromName (app, name, version, opts) {
   if (name == 'devkit-core') {
-    return installModuleFromURL(app, name, 'git@github:gameclosure/devkit-core', version, opts);
+    return installModuleFromURL(app, name, 'git@github:CodeCombiner/devkit-core', version, opts);
   }
   // TODO
   return Promise.reject(

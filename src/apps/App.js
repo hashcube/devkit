@@ -12,7 +12,7 @@ var gitClient = require('../util/gitClient');
 var FatalGitError = gitClient.FatalGitError;
 var logger = require('../util/logging').get('apps');
 var stringify = require('../util/stringify');
-
+``
 var ApplicationNotFoundError = require('./errors').ApplicationNotFoundError;
 var InvalidManifestError = require('./errors').InvalidManifestError;
 
@@ -221,7 +221,7 @@ var App = module.exports = Class(function () {
       name: 'devkit-core',
       ssh: 'git@github.com:',
       https: 'https://github.com/',
-      repo: 'hashcube/devkit-core',
+      repo: 'CodeCombiner/devkit-core',
       tag: 'hc'
     }
   ];
