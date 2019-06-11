@@ -15,7 +15,7 @@ exports.getConfig = function(app, argv) {
 
   // supply some defaults
   config.debug = 'debug' in argv ? !!argv.debug : true;
-  config.bundle = argv._.includes('bundle');
+  config.bundle = Array.isArray(argv._) && argv._.includes('bundle');
   config.scheme = argv.scheme || (config.debug ? 'debug' : 'release');
   config.target = argv.target || 'browser-mobile';
   config.imports = [];
